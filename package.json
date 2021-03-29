@@ -1,0 +1,27 @@
+{
+  "name": "dragokyun",
+  "version": "0.0.3",
+  "description": "Quick translation using web scraping of a website that translates",
+  "main": "./src/dragokyun.js",
+  "scripts": {
+    "start": "node ./src/dragokyun.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "translator",
+    "translation",
+    "google-translate",
+    "puppeteer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SomnathDas/dragokyun.git"
+  },
+  "author": "Somnath Das",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "8.0.0",
+    "puppeteer-extra": "3.1.18",
+    "puppeteer-extra-plugin-stealth": "2.7.6"
+  }
+}
